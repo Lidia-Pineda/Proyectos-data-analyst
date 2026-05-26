@@ -1,0 +1,28 @@
+,,,,
+, 📊 Descripción del analisis ,,,
+,"Análisis de KPis de eficiencia y participación de los departamentos de Walmart durante 2012, lo que sugiere ineficiencias operativas y oportunidades de optimización del espacio.",,,
+,,,,
+,,,,
+,,,,
+,📑 Tablas Incluidas,,,
+,Hoja,Descripción,Tipo de hoja,
+,raw_ventas,"Datos originales de ventas semanales, por tienda y departamento.",Raw Data,
+,raw_departamento,Catálogo de departamentos con sus nombres.,Lookup,
+,raw_tiendas,Catálogo de tiendas con tipo (A/B) y tamaño en m².,Lookup,
+,clean_ventas,"Datos depurados con uniones de catálogos (dept, tienda), semana estandarizada y nombre de depto.",Clean Data,
+,Pivot,"Tablas dinámicas utilizadas para el análisis, incluyendo métricas clave como ventas por metro cuadrado y participación por departamento",Análisis,
+,Dashboard,Tablero interactivo que permite visualizar ventas por m² y participación por departamento. Incluye filtro dinámico (menú desplegable) para exploración.,Visualización,
+,Resumen,"Hoja ejecutiva con los principales KPIs e insights derivados del análisis, orientados a la toma de decisiones.",Ejecutivo,
+,,,,
+,,,,
+,📊 KPIs y Fórmulas,,,
+,KPI,Descripción,Fórmula en Sheets,Interpretación
+,Ventas por m²,Ventas ajustadas por tamaño de tienda,Ventas Totales / tamaño,Entre mas alta la cifra mas eficiencia por metro cuadrado
+,Porcentaje de participación,Proporción de ventas que aporta cada departamento respecto al total,SUM(Ventas Departamento) / SUM(Ventas Totales),Permite identificar qué departamentos tienen mayor participación 
+,,,,
+,,,,
+,✅ QA / Validaciones,,,
+,Chequeo,Cómo verificar,Formula,Resultado
+,¿Existen tiendas sin departamento asignado?,Filtrar columna Dept = vacío.,"""=CONTAR.SI(clean_ventas!I:I,""no tiene departamento"")""",0
+,¿Ventas negativas o nulas?,Buscar valores < 0 utilizando un COUNTIF,"""=CONTAR.SI(clean_ventas!D:D,""<=0"")""",27
+,¿Tamaños en m² con valor 0?,Revisar que no sean 0 o vacíos.,"""=CONTAR.SI(clean_ventas!H:H,""<=0"")""",0
