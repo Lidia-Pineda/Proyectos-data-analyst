@@ -141,6 +141,3 @@ Para garantizar la reproducibilidad y el orden del análisis, implementé el sig
 * `data/`: Carpeta con los datasets originales (`tomtom_traffic.csv` y `oecd_city_economy.csv`).
 * `dataset_final_limpio_2024.csv`: Archivo depurado y unificado listo para ser consumido en herramientas de BI (Tableau o Power BI).
 
-Si deseas conocer más sobre mi perfil o discutir estos proyectos, no dudes en contactarme:
-* **LinkedIn:** [Enlace a tu perfil]
-* **Correo:** [Tu correo electrónico]
