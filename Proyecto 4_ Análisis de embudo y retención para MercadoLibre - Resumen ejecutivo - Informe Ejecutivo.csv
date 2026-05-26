@@ -1,0 +1,85 @@
+,,,,
+,,Context,Hallazgo,Implicación
+,"Entre el [01/01/2025] y el [08/31/2025], ¿cuál es la tasa de conversión entre cada etapa clave del embudo.
+
+🔹 ¿En qué paso se observa la mayor caída porcentual de usuarios?
+🔹 ¿Cómo varía esta pérdida por país (country)?","Se analizó la retención de usuarios dentro de la plataforma de Mercado Libre, utilizando cohortes mensuales. El objetivo fue identificar cómo evoluciona la permanencia y actividad de los usuarios después de registrarse.
+
+El análisis se realizó utilizando datos de actividad comprendidos entre 2025-01-01 y 2025-08-31.
+
+La segmentación se construyó agrupando usuarios por cohorte de registro mensual, permitiendo observar el porcentaje de usuarios activos acumulados en los días:
+
+Día 7 (D7)
+Día 14 (D14)
+Día 21 (D21)
+Día 28 (D28)
+
+Esto permitió comparar el comportamiento de usuarios registrados en distintos meses y detectar diferencias en la retención.","Cohortes con mejor retención
+
+Las cohortes con mejores resultados suelen presentar:
+
+Mayor porcentaje de usuarios activos en D7 y D14.
+Menor caída entre D14 y D28.
+Señales de onboarding más efectivo y mejor experiencia inicial.
+
+Las cohortes con peores resultados suelen presentar:
+
+Fuerte caída entre D7 y D14.
+Disminución progresiva hasta D28.
+Posibles problemas de activación o baja conexión con el producto.
+
+
+
+","A partir de los resultados, se pueden proponer acciones concretas para mejorar la retención:
+
+1. Optimizar onboarding
+Simplificar pasos iniciales.
+Guiar al usuario hacia acciones de valor rápidamente.
+Reducir fricción durante los primeros minutos de uso.
+2. Activación temprana
+Incentivar acciones clave durante los primeros 7 días.
+Mostrar recomendaciones personalizadas.
+Resaltar beneficios principales del producto.
+3. Estrategia de notificaciones
+Recordatorios automáticos para usuarios inactivos.
+Mensajes segmentados según comportamiento.
+Comunicación relevante en D3, D7 y D14.
+4. Recompensas o incentivos
+Bonificaciones por completar primeras acciones.
+Beneficios por regresar a la plataforma."
+,"¿Qué tan bien retenemos a los usuarios a lo largo del tiempo?
+
+🔹 Para los usuarios que se registraron entre el [01/01/2025] y el [06/01/2025], ¿cuál es la tasa de retención en D7, D14, D21, D28?
+🔹 *¿Cómo se comporta la retención agrupados por país (`country`)?
+",,"Comportamiento general de la retención
+
+Hay un patrón muy consistente en todos los países:
+
+Retención muy alta en D7 (≈ 79%–87%)
+Fuerte caída hacia D14
+Descenso acelerado en D21
+Retención extremadamente baja en D28
+
+Esto indica que:
+
+Los usuarios sí regresan durante la primera semana, pero la mayoría no desarrolla hábito de uso sostenido.","Estrategias específicas por país
+
+No todos los mercados responden igual.
+
+Ejemplo:
+
+México → mantener estrategia
+Colombia → revisar activación post-registro"
+,,,,
+,,,,
+,,,,
+,Reflexión personal,,,
+,"- ¿Qué etapa mejorarías primero?
+","La primera etapa a optimizar sería la retención temprana entre D7 y D14.
+
+Ese periodo suele representar el momento donde el usuario decide si el producto genera suficiente valor para seguir utilizándolo. Una mejora en esta etapa puede impactar directamente la retención futura.",,
+,- ¿Qué aprendiste sobre el comportamiento del usuario?,"El análisis muestra que los usuarios no abandonan de manera aleatoria; normalmente existe un punto específico donde la mayoría pierde interés.
+
+Las cohortes permiten identificar patrones claros de comportamiento y facilitan entender cómo cambia la experiencia de usuario dependiendo del momento de adquisición.
+
+Además, aprendí que pequeñas mejoras en onboarding o activación pueden generar grandes diferencias en la permanencia de usuarios a largo plazo.",,
