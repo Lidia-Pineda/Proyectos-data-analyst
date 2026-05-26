@@ -2,14 +2,14 @@
 
 ¡Bienvenido/a a mi repositorio de proyectos! Este espacio compila los trabajos y análisis prácticos realizados durante mi formación en Análisis de Datos. Aquí encontrarás soluciones a problemas de negocio utilizando Python, SQL y Google Sheets, abarcando desde la limpieza de datos hasta la creación de dashboards interactivos.
 
-## 🛠️ Tecnologías y Herramientas
+##  Tecnologías y Herramientas
 * **Python:** Manipulación de datos (Pandas, NumPy) y visualización (Matplotlib, Seaborn).
 * **SQL:** Consultas estructuradas, filtrado, agregaciones y unión de tablas (JOINs).
 * **Google Sheets:** Análisis exploratorio rápido, tablas dinámicas y reportería.
 
 ---
 
-## 📁 Proyectos Incluidos
+##  Proyectos Incluidos
 
 # Proyecto 1 - Resumen Ejecutivo de Ventas - Walmart (Google Sheets)
 
@@ -31,11 +31,6 @@ En este proyecto asumí el rol de Analista de Datos para la Dirección Comercial
 
 ## Metodología C-F-I (Ejemplo de Comunicación Ejecutiva)
 Para asegurar que los hallazgos técnicos se traduzcan en valor de negocio, el reporte final se estructuró bajo el método C-F-I:
-
----
-
-## Enlace al Proyecto
-* [Haz clic aquí para ver el Dashboard en Google Sheets](ENLACE_A_TU_HOJA_DE_GOOGLE_SHEETS) *(Asegúrate de configurar el enlace como "Cualquier persona con el enlace puede ver" para que los reclutadores puedan entrar).*
 
 ---
 
@@ -91,7 +86,7 @@ La consulta SQL rastrea el comportamiento secuencial de los usuarios a través d
 
 ---
 
-## 📁 Archivos en el Repositorio
+##  Archivos en el Repositorio
 * `queries_funnel_analysis.sql`: Scripts SQL dedicados al mapeo del embudo, tasas de conversión y segmentaciones de tráfico.
 * `queries_retention_cohorts.sql`: Consultas para la construcción de la matriz de cohortes (D7 a D28).
 * `informe_ejecutivo_mercadolibre.md`: Resumen con las propuestas de mejora simuladas y presentadas
